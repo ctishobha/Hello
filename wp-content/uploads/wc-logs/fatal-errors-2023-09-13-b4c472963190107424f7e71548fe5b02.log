@@ -1,0 +1,13 @@
+2023-09-13T17:00:54+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on bool in D:\Local Sites\low-rance\app\public\wp-content\themes\twentytwenty-child\inc\custom-functions.php:51
+Stack trace:
+#0 D:\Local Sites\low-rance\app\public\wp-includes\class-wp-hook.php(310): lr_get_lenses_by_type('')
+#1 D:\Local Sites\low-rance\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 D:\Local Sites\low-rance\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 D:\Local Sites\low-rance\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_lr_get_...')
+#4 {main}
+  thrown in D:\Local Sites\low-rance\app\public\wp-content\themes\twentytwenty-child\inc\custom-functions.php on line 51
+
+2023-09-13T18:50:32+00:00 CRITICAL Cannot use "self" when no class scope is active in D:\Local Sites\low-rance\app\public\wp-content\themes\twentytwenty-child\inc\custom-functions.php on line 253
+
+2023-09-13T18:50:34+00:00 CRITICAL Cannot use "self" when no class scope is active in D:\Local Sites\low-rance\app\public\wp-content\themes\twentytwenty-child\inc\custom-functions.php on line 253
+

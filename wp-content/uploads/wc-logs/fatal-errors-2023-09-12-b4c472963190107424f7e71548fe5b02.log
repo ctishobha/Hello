@@ -1,0 +1,79 @@
+2023-09-12T00:52:54+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, class "lr_add_lens_box_class" not found in D:\Local Sites\low-rance\app\public\wp-admin\includes\template.php:1443
+Stack trace:
+#0 D:\Local Sites\low-rance\app\public\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#1 D:\Local Sites\low-rance\app\public\wp-admin\post.php(206): require('D:\\Local Sites\\...')
+#2 {main}
+  thrown in D:\Local Sites\low-rance\app\public\wp-admin\includes\template.php on line 1443
+
+2023-09-12T00:56:57+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, class "lr_add_lens_box_class" not found in D:\Local Sites\low-rance\app\public\wp-admin\includes\template.php:1443
+Stack trace:
+#0 D:\Local Sites\low-rance\app\public\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#1 D:\Local Sites\low-rance\app\public\wp-admin\post.php(206): require('D:\\Local Sites\\...')
+#2 {main}
+  thrown in D:\Local Sites\low-rance\app\public\wp-admin\includes\template.php on line 1443
+
+2023-09-12T19:32:34+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in D:\Local Sites\low-rance\app\public\wp-content\themes\twentytwenty-child\functions.php:641
+Stack trace:
+#0 D:\Local Sites\low-rance\app\public\wp-includes\class-wp-hook.php(310): select_lens_type('')
+#1 D:\Local Sites\low-rance\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 D:\Local Sites\low-rance\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 D:\Local Sites\low-rance\app\public\wp-content\plugins\woocommerce\templates\content-single-product.php(60): do_action('woocommerce_sin...')
+#4 D:\Local Sites\low-rance\app\public\wp-includes\template.php(787): require('D:\\Local Sites\\...')
+#5 D:\Local Sites\low-rance\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('D:\\Local Sites\\...', false)
+#6 D:\Local Sites\low-rance\app\public\wp-content\themes\twentytwenty-child\woocommerce\single-product.php(42): wc_get_template_part('content', 'single-product')
+#7 D:\Local Sites\low-rance\app\public\wp-includes\template-loader.php(106): include('D:\\Local Sites\\...')
+#8 D:\Local Sites\low-rance\app\public\wp-blog-header.php(19): require_once('D:\\Local Sites\\...')
+#9 D:\Local Sites\low-rance\app\public\index.php(17): require('D:\\Local Sites\\...')
+#10 {main}
+  thrown in D:\Local Sites\low-rance\app\public\wp-content\themes\twentytwenty-child\functions.php on line 641
+
+2023-09-12T19:34:35+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in D:\Local Sites\low-rance\app\public\wp-content\themes\twentytwenty-child\functions.php:642
+Stack trace:
+#0 D:\Local Sites\low-rance\app\public\wp-includes\class-wp-hook.php(310): select_lens_type('')
+#1 D:\Local Sites\low-rance\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 D:\Local Sites\low-rance\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 D:\Local Sites\low-rance\app\public\wp-content\plugins\woocommerce\templates\content-single-product.php(60): do_action('woocommerce_sin...')
+#4 D:\Local Sites\low-rance\app\public\wp-includes\template.php(787): require('D:\\Local Sites\\...')
+#5 D:\Local Sites\low-rance\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('D:\\Local Sites\\...', false)
+#6 D:\Local Sites\low-rance\app\public\wp-content\themes\twentytwenty-child\woocommerce\single-product.php(42): wc_get_template_part('content', 'single-product')
+#7 D:\Local Sites\low-rance\app\public\wp-includes\template-loader.php(106): include('D:\\Local Sites\\...')
+#8 D:\Local Sites\low-rance\app\public\wp-blog-header.php(19): require_once('D:\\Local Sites\\...')
+#9 D:\Local Sites\low-rance\app\public\index.php(17): require('D:\\Local Sites\\...')
+#10 {main}
+  thrown in D:\Local Sites\low-rance\app\public\wp-content\themes\twentytwenty-child\functions.php on line 642
+
+2023-09-12T19:35:31+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in D:\Local Sites\low-rance\app\public\wp-content\themes\twentytwenty-child\functions.php:643
+Stack trace:
+#0 D:\Local Sites\low-rance\app\public\wp-includes\class-wp-hook.php(310): select_lens_type('')
+#1 D:\Local Sites\low-rance\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 D:\Local Sites\low-rance\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 D:\Local Sites\low-rance\app\public\wp-content\plugins\woocommerce\templates\content-single-product.php(60): do_action('woocommerce_sin...')
+#4 D:\Local Sites\low-rance\app\public\wp-includes\template.php(787): require('D:\\Local Sites\\...')
+#5 D:\Local Sites\low-rance\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('D:\\Local Sites\\...', false)
+#6 D:\Local Sites\low-rance\app\public\wp-content\themes\twentytwenty-child\woocommerce\single-product.php(42): wc_get_template_part('content', 'single-product')
+#7 D:\Local Sites\low-rance\app\public\wp-includes\template-loader.php(106): include('D:\\Local Sites\\...')
+#8 D:\Local Sites\low-rance\app\public\wp-blog-header.php(19): require_once('D:\\Local Sites\\...')
+#9 D:\Local Sites\low-rance\app\public\index.php(17): require('D:\\Local Sites\\...')
+#10 {main}
+  thrown in D:\Local Sites\low-rance\app\public\wp-content\themes\twentytwenty-child\functions.php on line 643
+
+2023-09-12T21:43:27+00:00 CRITICAL syntax error, unexpected token "." in D:\Local Sites\low-rance\app\public\wp-content\themes\twentytwenty-child\functions.php on line 645
+
+2023-09-12T21:43:47+00:00 CRITICAL syntax error, unexpected token "." in D:\Local Sites\low-rance\app\public\wp-content\themes\twentytwenty-child\functions.php on line 645
+
+2023-09-12T21:43:55+00:00 CRITICAL syntax error, unexpected token "." in D:\Local Sites\low-rance\app\public\wp-content\themes\twentytwenty-child\functions.php on line 645
+
+2023-09-12T21:45:28+00:00 CRITICAL syntax error, unexpected variable "$term", expecting ")" in D:\Local Sites\low-rance\app\public\wp-content\themes\twentytwenty-child\functions.php on line 642
+
+2023-09-12T21:45:31+00:00 CRITICAL syntax error, unexpected variable "$term", expecting ")" in D:\Local Sites\low-rance\app\public\wp-content\themes\twentytwenty-child\functions.php on line 642
+
+2023-09-12T21:45:31+00:00 CRITICAL syntax error, unexpected variable "$term", expecting ")" in D:\Local Sites\low-rance\app\public\wp-content\themes\twentytwenty-child\functions.php on line 642
+
+2023-09-12T21:47:29+00:00 CRITICAL syntax error, unexpected variable "$term", expecting ")" in D:\Local Sites\low-rance\app\public\wp-content\themes\twentytwenty-child\functions.php on line 642
+
+2023-09-12T22:23:47+00:00 CRITICAL syntax error, unexpected token ")" in D:\Local Sites\low-rance\app\public\wp-content\themes\twentytwenty-child\functions.php on line 648
+
+2023-09-12T22:24:38+00:00 CRITICAL syntax error, unexpected token ")" in D:\Local Sites\low-rance\app\public\wp-content\themes\twentytwenty-child\functions.php on line 648
+
+2023-09-12T22:25:09+00:00 CRITICAL syntax error, unexpected token ")" in D:\Local Sites\low-rance\app\public\wp-content\themes\twentytwenty-child\functions.php on line 648
+

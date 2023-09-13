@@ -1,0 +1,4 @@
+2023-08-25T19:37:01+00:00 CRITICAL syntax error, unexpected single-quoted string "required", expecting ")" in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\woocommerce\single-product-reviews.php on line 94
+
+2023-08-25T23:48:51+00:00 CRITICAL syntax error, unexpected identifier "do_action", expecting "," or ";" in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\woocommerce\cart\cart-empty.php on line 29
+

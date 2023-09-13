@@ -1,0 +1,6 @@
+2023-08-28T00:52:44+00:00 CRITICAL syntax error, unexpected identifier "button", expecting ")" in C:\xampp\htdocs\practice\wp-content\themes\twentytwenty-child\functions.php on line 552
+
+2023-08-28T00:52:44+00:00 CRITICAL syntax error, unexpected identifier "button", expecting ")" in C:\xampp\htdocs\practice\wp-content\themes\twentytwenty-child\functions.php on line 552
+
+2023-08-28T03:09:19+00:00 CRITICAL Unclosed '{' on line 428 in C:\xampp\htdocs\practice\wp-content\themes\twentytwenty-child\functions.php on line 648
+

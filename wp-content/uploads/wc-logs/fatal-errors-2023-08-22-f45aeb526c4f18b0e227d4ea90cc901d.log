@@ -1,0 +1,178 @@
+2023-08-22T00:01:40+00:00 CRITICAL Uncaught Error: Object of class WC_Product_Attribute could not be converted to string in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php:269
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(310): sm_display_product_color_options('')
+#1 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\lowrance\wp-content\plugins\woocommerce\templates\content-product.php(65): do_action('woocommerce_aft...')
+#4 C:\xampp\htdocs\lowrance\wp-includes\template.php(787): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\lowrance\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#6 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\woocommerce\archive-product.php(78): wc_get_template_part('content', 'product')
+#7 C:\xampp\htdocs\lowrance\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\lowrance\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#9 C:\xampp\htdocs\lowrance\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\lowrance\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\lowrance\index.php(17): require('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php on line 269
+
+2023-08-22T00:01:55+00:00 CRITICAL syntax error, unexpected string content "", expecting "-" or identifier or variable or number in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php on line 269
+
+2023-08-22T00:02:14+00:00 CRITICAL Uncaught Error: Object of class WC_Product_Attribute could not be converted to string in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php:269
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(310): sm_display_product_color_options('')
+#1 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\lowrance\wp-content\plugins\woocommerce\templates\content-product.php(65): do_action('woocommerce_aft...')
+#4 C:\xampp\htdocs\lowrance\wp-includes\template.php(787): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\lowrance\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#6 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\woocommerce\archive-product.php(78): wc_get_template_part('content', 'product')
+#7 C:\xampp\htdocs\lowrance\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\lowrance\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#9 C:\xampp\htdocs\lowrance\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\lowrance\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\lowrance\index.php(17): require('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php on line 269
+
+2023-08-22T00:11:14+00:00 CRITICAL Uncaught Error: Object of class WP_Term could not be converted to string in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php:265
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(310): display_color_attribute('')
+#1 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\lowrance\wp-content\plugins\woocommerce\templates\content-product.php(57): do_action('woocommerce_aft...')
+#4 C:\xampp\htdocs\lowrance\wp-includes\template.php(787): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\lowrance\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#6 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\woocommerce\archive-product.php(78): wc_get_template_part('content', 'product')
+#7 C:\xampp\htdocs\lowrance\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\lowrance\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#9 C:\xampp\htdocs\lowrance\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\lowrance\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\lowrance\index.php(17): require('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php on line 265
+
+2023-08-22T00:12:42+00:00 CRITICAL Uncaught Error: Object of class WP_Term could not be converted to string in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php:264
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(310): display_color_attribute('')
+#1 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\lowrance\wp-content\plugins\woocommerce\templates\content-product.php(57): do_action('woocommerce_aft...')
+#4 C:\xampp\htdocs\lowrance\wp-includes\template.php(787): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\lowrance\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#6 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\woocommerce\archive-product.php(78): wc_get_template_part('content', 'product')
+#7 C:\xampp\htdocs\lowrance\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\lowrance\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#9 C:\xampp\htdocs\lowrance\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\lowrance\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\lowrance\index.php(17): require('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php on line 264
+
+2023-08-22T00:16:13+00:00 CRITICAL syntax error, unexpected token "." in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php on line 264
+
+2023-08-22T00:16:21+00:00 CRITICAL syntax error, unexpected token "." in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php on line 264
+
+2023-08-22T00:18:29+00:00 CRITICAL syntax error, unexpected identifier "attribute", expecting "," or ";" in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php on line 264
+
+2023-08-22T00:28:26+00:00 CRITICAL syntax error, unexpected identifier "background", expecting "," or ";" in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php on line 259
+
+2023-08-22T00:30:07+00:00 CRITICAL syntax error, unexpected identifier "background", expecting "," or ";" in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php on line 259
+
+2023-08-22T00:30:35+00:00 CRITICAL syntax error, unexpected identifier "background", expecting "," or ";" in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php on line 259
+
+2023-08-22T18:16:03+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on null in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php:254
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-settings.php(600): include()
+#1 C:\xampp\htdocs\lowrance\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lowrance\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\lowrance\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\lowrance\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php on line 254
+
+2023-08-22T18:29:52+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php:273
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(310): iconic_disable_selected_on_archive('')
+#1 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\lowrance\wp-content\plugins\woocommerce\templates\content-product.php(57): do_action('woocommerce_aft...')
+#4 C:\xampp\htdocs\lowrance\wp-includes\template.php(787): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\lowrance\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#6 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\woocommerce\archive-product.php(78): wc_get_template_part('content', 'product')
+#7 C:\xampp\htdocs\lowrance\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\lowrance\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#9 C:\xampp\htdocs\lowrance\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\lowrance\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\lowrance\index.php(17): require('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php on line 273
+
+2023-08-22T19:21:12+00:00 CRITICAL Cannot redeclare get_variation_id_by_color() (previously declared in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php:287) in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php on line 302
+
+2023-08-22T19:22:55+00:00 CRITICAL Cannot redeclare get_variation_id_by_color() (previously declared in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php:272) in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php on line 272
+
+2023-08-22T19:23:10+00:00 CRITICAL Cannot redeclare get_variation_id_by_color() (previously declared in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php:272) in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php on line 272
+
+2023-08-22T19:23:30+00:00 CRITICAL Cannot redeclare get_variation_id_by_color() (previously declared in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php:272) in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php on line 272
+
+2023-08-22T19:23:34+00:00 CRITICAL Cannot redeclare get_variation_id_by_color() (previously declared in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php:272) in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php on line 272
+
+2023-08-22T20:56:38+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on null in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php:271
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(310): custom_content_after_price('')
+#1 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\lowrance\wp-content\plugins\woocommerce\templates\content-single-product.php(60): do_action('woocommerce_sin...')
+#4 C:\xampp\htdocs\lowrance\wp-includes\template.php(787): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\lowrance\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#6 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\woocommerce\single-product.php(42): wc_get_template_part('content', 'single-product')
+#7 C:\xampp\htdocs\lowrance\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\lowrance\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\lowrance\index.php(17): require('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php on line 271
+
+2023-08-22T21:06:02+00:00 CRITICAL syntax error, unexpected token "if", expecting "," or ";" in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php on line 275
+
+2023-08-22T21:54:05+00:00 CRITICAL syntax error, unexpected identifier "get_footer", expecting "," or ";" in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\woocommerce\single-product.php on line 66
+
+2023-08-22T22:29:56+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function custom_description_tab_title(), 1 passed in C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php on line 310 and exactly 2 expected in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php:305
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(310): custom_description_tab_title(Array)
+#1 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\lowrance\wp-content\plugins\woocommerce\templates\single-product\tabs\tabs.php(29): apply_filters('woocommerce_pro...', Array)
+#3 C:\xampp\htdocs\lowrance\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\lowrance\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1626): wc_get_template('single-product/...')
+#5 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(310): woocommerce_output_product_data_tabs('')
+#6 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\lowrance\wp-content\plugins\woocommerce\templates\content-single-product.php(72): do_action('woocommerce_aft...')
+#9 C:\xampp\htdocs\lowrance\wp-includes\template.php(787): require('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\lowrance\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#11 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\woocommerce\single-product.php(42): wc_get_template_part('content', 'single-product')
+#12 C:\xampp\htdocs\lowrance\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\lowrance\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\lowrance\index.php(17): require('C:\\xampp\\htdocs...')
+#15 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php on line 305
+
+2023-08-22T22:50:39+00:00 CRITICAL Uncaught Error: Call to a member function get_review_count() on null in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php:309
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(310): woo_customize_tabs(Array)
+#1 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\lowrance\wp-content\plugins\woocommerce\templates\single-product\tabs\tabs.php(29): apply_filters('woocommerce_pro...', Array)
+#3 C:\xampp\htdocs\lowrance\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\lowrance\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1626): wc_get_template('single-product/...')
+#5 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(310): woocommerce_output_product_data_tabs('')
+#6 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\lowrance\wp-content\plugins\woocommerce\templates\content-single-product.php(72): do_action('woocommerce_aft...')
+#9 C:\xampp\htdocs\lowrance\wp-includes\template.php(787): require('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\lowrance\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#11 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\woocommerce\single-product.php(42): wc_get_template_part('content', 'single-product')
+#12 C:\xampp\htdocs\lowrance\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\lowrance\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\lowrance\index.php(17): require('C:\\xampp\\htdocs...')
+#15 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php on line 309
+

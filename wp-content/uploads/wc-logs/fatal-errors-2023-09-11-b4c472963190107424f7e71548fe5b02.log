@@ -1,0 +1,103 @@
+2023-09-11T21:13:56+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wp_localize_script(), 2 passed in D:\Local Sites\low-rance\app\public\wp-content\themes\twentytwenty-child\functions.php on line 19 and exactly 3 expected in D:\Local Sites\low-rance\app\public\wp-includes\functions.wp-scripts.php:226
+Stack trace:
+#0 D:\Local Sites\low-rance\app\public\wp-content\themes\twentytwenty-child\functions.php(19): wp_localize_script('custom-script', Array)
+#1 D:\Local Sites\low-rance\app\public\wp-includes\class-wp-hook.php(310): enqueue_parent_styles('')
+#2 D:\Local Sites\low-rance\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#3 D:\Local Sites\low-rance\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\Local Sites\low-rance\app\public\wp-includes\script-loader.php(2225): do_action('wp_enqueue_scri...')
+#5 D:\Local Sites\low-rance\app\public\wp-includes\class-wp-hook.php(310): wp_enqueue_scripts('')
+#6 D:\Local Sites\low-rance\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 D:\Local Sites\low-rance\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 D:\Local Sites\low-rance\app\public\wp-includes\general-template.php(3053): do_action('wp_head')
+#9 D:\Local Sites\low-rance\app\public\wp-content\themes\twentytwenty-child\header.php(25): wp_head()
+#10 D:\Local Sites\low-rance\app\public\wp-includes\template.php(785): require_once('D:\\Local Sites\\...')
+#11 D:\Local Sites\low-rance\app\public\wp-includes\template.php(720): load_template('D:\\Local Sites\\...', true, Array)
+#12 D:\Local Sites\low-rance\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#13 D:\Local Sites\low-rance\app\public\wp-content\themes\twentytwenty-child\woocommerce\single-product.php(22): get_header('shop')
+#14 D:\Local Sites\low-rance\app\public\wp-includes\template-loader.php(106): include('D:\\Local Sites\\...')
+#15 D:\Local Sites\low-rance\app\public\wp-blog-header.php(19): require_once('D:\\Local Sites\\...')
+#16 D:\Local Sites\low-rance\app\public\index.php(17): require('D:\\Local Sites\\...')
+#17 {main}
+  thrown in D:\Local Sites\low-rance\app\public\wp-includes\functions.wp-scripts.php on line 226
+
+2023-09-11T21:27:26+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in D:\Local Sites\low-rance\app\public\wp-content\themes\twentytwenty-child\functions.php:606
+Stack trace:
+#0 D:\Local Sites\low-rance\app\public\wp-includes\class-wp-hook.php(312): select_lens_type(true)
+#1 D:\Local Sites\low-rance\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters(true, Array)
+#2 D:\Local Sites\low-rance\app\public\wp-content\plugins\woocommerce\includes\class-wc-form-handler.php(904): apply_filters('woocommerce_add...', true, 994, 1, '', Array)
+#3 D:\Local Sites\low-rance\app\public\wp-content\plugins\woocommerce\includes\class-wc-form-handler.php(790): WC_Form_Handler::add_to_cart_handler_variable(994)
+#4 D:\Local Sites\low-rance\app\public\wp-includes\class-wp-hook.php(310): WC_Form_Handler::add_to_cart_action('')
+#5 D:\Local Sites\low-rance\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 D:\Local Sites\low-rance\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 D:\Local Sites\low-rance\app\public\wp-settings.php(654): do_action('wp_loaded')
+#8 D:\Local Sites\low-rance\app\public\wp-config.php(109): require_once('D:\\Local Sites\\...')
+#9 D:\Local Sites\low-rance\app\public\wp-load.php(50): require_once('D:\\Local Sites\\...')
+#10 D:\Local Sites\low-rance\app\public\wp-blog-header.php(13): require_once('D:\\Local Sites\\...')
+#11 D:\Local Sites\low-rance\app\public\index.php(17): require('D:\\Local Sites\\...')
+#12 {main}
+  thrown in D:\Local Sites\low-rance\app\public\wp-content\themes\twentytwenty-child\functions.php on line 606
+
+2023-09-11T21:29:12+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in D:\Local Sites\low-rance\app\public\wp-content\themes\twentytwenty-child\functions.php:608
+Stack trace:
+#0 D:\Local Sites\low-rance\app\public\wp-includes\class-wp-hook.php(312): select_lens_type(true)
+#1 D:\Local Sites\low-rance\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters(true, Array)
+#2 D:\Local Sites\low-rance\app\public\wp-content\plugins\woocommerce\includes\class-wc-form-handler.php(904): apply_filters('woocommerce_add...', true, 994, 1, '', Array)
+#3 D:\Local Sites\low-rance\app\public\wp-content\plugins\woocommerce\includes\class-wc-form-handler.php(790): WC_Form_Handler::add_to_cart_handler_variable(994)
+#4 D:\Local Sites\low-rance\app\public\wp-includes\class-wp-hook.php(310): WC_Form_Handler::add_to_cart_action('')
+#5 D:\Local Sites\low-rance\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 D:\Local Sites\low-rance\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 D:\Local Sites\low-rance\app\public\wp-settings.php(654): do_action('wp_loaded')
+#8 D:\Local Sites\low-rance\app\public\wp-config.php(109): require_once('D:\\Local Sites\\...')
+#9 D:\Local Sites\low-rance\app\public\wp-load.php(50): require_once('D:\\Local Sites\\...')
+#10 D:\Local Sites\low-rance\app\public\wp-blog-header.php(13): require_once('D:\\Local Sites\\...')
+#11 D:\Local Sites\low-rance\app\public\index.php(17): require('D:\\Local Sites\\...')
+#12 {main}
+  thrown in D:\Local Sites\low-rance\app\public\wp-content\themes\twentytwenty-child\functions.php on line 608
+
+2023-09-11T21:33:53+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "bkap_get_validate_add_cart_item" not found or invalid function name in D:\Local Sites\low-rance\app\public\wp-includes\class-wp-hook.php:312
+Stack trace:
+#0 D:\Local Sites\low-rance\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters(true, Array)
+#1 D:\Local Sites\low-rance\app\public\wp-content\plugins\woocommerce\includes\class-wc-form-handler.php(904): apply_filters('woocommerce_add...', true, 998, 1, '', Array)
+#2 D:\Local Sites\low-rance\app\public\wp-content\plugins\woocommerce\includes\class-wc-form-handler.php(790): WC_Form_Handler::add_to_cart_handler_variable(998)
+#3 D:\Local Sites\low-rance\app\public\wp-includes\class-wp-hook.php(310): WC_Form_Handler::add_to_cart_action('')
+#4 D:\Local Sites\low-rance\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#5 D:\Local Sites\low-rance\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 D:\Local Sites\low-rance\app\public\wp-settings.php(654): do_action('wp_loaded')
+#7 D:\Local Sites\low-rance\app\public\wp-config.php(109): require_once('D:\\Local Sites\\...')
+#8 D:\Local Sites\low-rance\app\public\wp-load.php(50): require_once('D:\\Local Sites\\...')
+#9 D:\Local Sites\low-rance\app\public\wp-blog-header.php(13): require_once('D:\\Local Sites\\...')
+#10 D:\Local Sites\low-rance\app\public\index.php(17): require('D:\\Local Sites\\...')
+#11 {main}
+  thrown in D:\Local Sites\low-rance\app\public\wp-includes\class-wp-hook.php on line 312
+
+2023-09-11T21:34:14+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "bkap_get_validate_add_cart_item" not found or invalid function name in D:\Local Sites\low-rance\app\public\wp-includes\class-wp-hook.php:312
+Stack trace:
+#0 D:\Local Sites\low-rance\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters(true, Array)
+#1 D:\Local Sites\low-rance\app\public\wp-content\plugins\woocommerce\includes\class-wc-form-handler.php(904): apply_filters('woocommerce_add...', true, 998, 1, '', Array)
+#2 D:\Local Sites\low-rance\app\public\wp-content\plugins\woocommerce\includes\class-wc-form-handler.php(790): WC_Form_Handler::add_to_cart_handler_variable(998)
+#3 D:\Local Sites\low-rance\app\public\wp-includes\class-wp-hook.php(310): WC_Form_Handler::add_to_cart_action('')
+#4 D:\Local Sites\low-rance\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#5 D:\Local Sites\low-rance\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 D:\Local Sites\low-rance\app\public\wp-settings.php(654): do_action('wp_loaded')
+#7 D:\Local Sites\low-rance\app\public\wp-config.php(109): require_once('D:\\Local Sites\\...')
+#8 D:\Local Sites\low-rance\app\public\wp-load.php(50): require_once('D:\\Local Sites\\...')
+#9 D:\Local Sites\low-rance\app\public\wp-blog-header.php(13): require_once('D:\\Local Sites\\...')
+#10 D:\Local Sites\low-rance\app\public\index.php(17): require('D:\\Local Sites\\...')
+#11 {main}
+  thrown in D:\Local Sites\low-rance\app\public\wp-includes\class-wp-hook.php on line 312
+
+2023-09-11T22:06:41+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on bool in D:\Local Sites\low-rance\app\public\wp-content\themes\twentytwenty-child\functions.php:610
+Stack trace:
+#0 D:\Local Sites\low-rance\app\public\wp-includes\class-wp-hook.php(310): select_lens_type('')
+#1 D:\Local Sites\low-rance\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 D:\Local Sites\low-rance\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 D:\Local Sites\low-rance\app\public\wp-content\plugins\woocommerce\templates\content-single-product.php(60): do_action('woocommerce_sin...')
+#4 D:\Local Sites\low-rance\app\public\wp-includes\template.php(787): require('D:\\Local Sites\\...')
+#5 D:\Local Sites\low-rance\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('D:\\Local Sites\\...', false)
+#6 D:\Local Sites\low-rance\app\public\wp-content\themes\twentytwenty-child\woocommerce\single-product.php(42): wc_get_template_part('content', 'single-product')
+#7 D:\Local Sites\low-rance\app\public\wp-includes\template-loader.php(106): include('D:\\Local Sites\\...')
+#8 D:\Local Sites\low-rance\app\public\wp-blog-header.php(19): require_once('D:\\Local Sites\\...')
+#9 D:\Local Sites\low-rance\app\public\index.php(17): require('D:\\Local Sites\\...')
+#10 {main}
+  thrown in D:\Local Sites\low-rance\app\public\wp-content\themes\twentytwenty-child\functions.php on line 610
+

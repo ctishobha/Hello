@@ -1,0 +1,60 @@
+2023-08-31T18:24:48+00:00 CRITICAL syntax error, unexpected identifier "wc_dropdown_variation_attribut...", expecting "," or ";" in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php on line 529
+
+2023-08-31T18:25:24+00:00 CRITICAL syntax error, unexpected token "." in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php on line 535
+
+2023-08-31T18:25:42+00:00 CRITICAL syntax error, unexpected identifier "wc_dropdown_variation_attribut...", expecting "," or ";" in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php on line 529
+
+2023-08-31T18:26:03+00:00 CRITICAL syntax error, unexpected identifier "wc_dropdown_variation_attribut...", expecting "," or ";" in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php on line 529
+
+2023-08-31T18:26:11+00:00 CRITICAL syntax error, unexpected identifier "wc_dropdown_variation_attribut...", expecting "," or ";" in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php on line 529
+
+2023-08-31T18:27:25+00:00 CRITICAL Uncaught TypeError: array_keys(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php:529
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php(529): array_keys(NULL)
+#1 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(310): select_lens_type('')
+#2 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\lowrance\wp-content\plugins\woocommerce\templates\content-single-product.php(60): do_action('woocommerce_sin...')
+#5 C:\xampp\htdocs\lowrance\wp-includes\template.php(787): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\lowrance\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#7 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\woocommerce\single-product.php(42): wc_get_template_part('content', 'single-product')
+#8 C:\xampp\htdocs\lowrance\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\lowrance\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\lowrance\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php on line 529
+
+2023-08-31T18:28:47+00:00 CRITICAL Uncaught TypeError: array_keys(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php:476
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php(476): array_keys(NULL)
+#1 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(310): select_lens_type('')
+#2 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\lowrance\wp-content\plugins\woocommerce\templates\content-single-product.php(60): do_action('woocommerce_sin...')
+#5 C:\xampp\htdocs\lowrance\wp-includes\template.php(787): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\lowrance\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#7 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\woocommerce\single-product.php(42): wc_get_template_part('content', 'single-product')
+#8 C:\xampp\htdocs\lowrance\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\lowrance\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\lowrance\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php on line 476
+
+2023-08-31T18:40:30+00:00 CRITICAL Uncaught TypeError: array_keys(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php:476
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php(476): array_keys(NULL)
+#1 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(310): select_lens_type('')
+#2 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\lowrance\wp-content\plugins\woocommerce\templates\content-single-product.php(60): do_action('woocommerce_sin...')
+#5 C:\xampp\htdocs\lowrance\wp-includes\template.php(787): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\lowrance\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#7 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\woocommerce\single-product.php(42): wc_get_template_part('content', 'single-product')
+#8 C:\xampp\htdocs\lowrance\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\lowrance\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\lowrance\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php on line 476
+
+2023-08-31T19:11:21+00:00 CRITICAL syntax error, unexpected identifier "esc_url", expecting "," or ";" in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php on line 432
+

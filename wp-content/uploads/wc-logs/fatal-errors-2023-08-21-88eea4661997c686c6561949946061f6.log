@@ -1,0 +1,2 @@
+2023-08-21T02:48:27+00:00 CRITICAL Cannot redeclare sm_display_product_color_options() (previously declared in C:\xampp\htdocs\practice\wp-content\themes\twentytwenty-child\functions.php:21) in C:\xampp\htdocs\practice\wp-content\themes\twentytwenty-child\functions.php on line 34
+

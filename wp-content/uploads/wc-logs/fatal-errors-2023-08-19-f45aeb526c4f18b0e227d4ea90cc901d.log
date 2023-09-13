@@ -1,0 +1,34 @@
+2023-08-19T01:33:26+00:00 CRITICAL Uncaught Error: Call to undefined function iconic_get_available_attributes() in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php:264
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(310): iconic_available_attributes('')
+#1 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\lowrance\wp-content\plugins\woocommerce\templates\content-product.php(49): do_action('woocommerce_sho...')
+#4 C:\xampp\htdocs\lowrance\wp-includes\template.php(787): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\lowrance\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#6 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\woocommerce\archive-product.php(78): wc_get_template_part('content', 'product')
+#7 C:\xampp\htdocs\lowrance\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\lowrance\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#9 C:\xampp\htdocs\lowrance\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\lowrance\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\lowrance\index.php(17): require('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php on line 264
+
+2023-08-19T01:33:59+00:00 CRITICAL Uncaught Error: Call to undefined function iconic_get_available_attributes() in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php:260
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(310): iconic_available_attributes('')
+#1 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\lowrance\wp-content\plugins\woocommerce\templates\content-product.php(49): do_action('woocommerce_sho...')
+#4 C:\xampp\htdocs\lowrance\wp-includes\template.php(787): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\lowrance\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#6 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\woocommerce\archive-product.php(78): wc_get_template_part('content', 'product')
+#7 C:\xampp\htdocs\lowrance\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\lowrance\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#9 C:\xampp\htdocs\lowrance\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\lowrance\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\lowrance\index.php(17): require('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php on line 260
+

@@ -1,0 +1,44 @@
+2023-09-05T01:14:06+00:00 CRITICAL syntax error, unexpected token "echo" in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php on line 730
+
+2023-09-05T01:14:15+00:00 CRITICAL syntax error, unexpected token "echo" in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php on line 730
+
+2023-09-05T18:38:14+00:00 CRITICAL Uncaught Error: Call to undefined function get_submitted_name() in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\woocommerce\single-product.php:73
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\lowrance\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lowrance\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\woocommerce\single-product.php on line 73
+
+2023-09-05T18:38:48+00:00 CRITICAL Uncaught Error: Call to undefined function get_submitted_name() in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\woocommerce\single-product.php:73
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\lowrance\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lowrance\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\woocommerce\single-product.php on line 73
+
+2023-09-05T18:38:50+00:00 CRITICAL Uncaught Error: Call to undefined function get_submitted_name() in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\woocommerce\single-product.php:73
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\lowrance\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lowrance\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\woocommerce\single-product.php on line 73
+
+2023-09-05T18:53:17+00:00 CRITICAL Uncaught Error: Call to undefined function acf_form() in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\woocommerce\single-product.php:62
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\lowrance\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lowrance\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\woocommerce\single-product.php on line 62
+
+2023-09-05T19:31:24+00:00 CRITICAL Uncaught Error: Call to undefined function acf_form() in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\woocommerce\single-product.php:71
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\lowrance\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lowrance\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\woocommerce\single-product.php on line 71
+

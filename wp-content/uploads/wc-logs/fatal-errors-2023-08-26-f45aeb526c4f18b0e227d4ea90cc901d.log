@@ -1,0 +1,8 @@
+2023-08-26T00:09:21+00:00 CRITICAL syntax error, unexpected identifier "t", expecting ";" in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php on line 454
+
+2023-08-26T17:06:17+00:00 CRITICAL syntax error, unexpected token ";", expecting ")" in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php on line 460
+
+2023-08-26T17:51:48+00:00 CRITICAL syntax error, unexpected token "if" in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php on line 490
+
+2023-08-26T22:24:35+00:00 CRITICAL syntax error, unexpected variable "$sphere", expecting "," or ";" in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php on line 511
+

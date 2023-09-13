@@ -1,0 +1,46 @@
+2023-09-04T17:57:48+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\xampp\htdocs\lowrance\wp-content\plugins\eyewear-prescription-form\admin\class-eyewear_prescription_form-admin.php:366
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(310): SubmitCatProductRequest('')
+#1 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\lowrance\wp-admin\admin-ajax.php(188): do_action('wp_ajax_SubmitC...')
+#4 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-content\plugins\eyewear-prescription-form\admin\class-eyewear_prescription_form-admin.php on line 366
+
+2023-09-04T18:03:21+00:00 CRITICAL Uncaught ValueError: range(): Argument #3 ($step) must not exceed the specified range in C:\xampp\htdocs\lowrance\wp-content\plugins\eyewear-prescription-form\public\partials\eyewear_prescription_form-public-multi-form-cat.php:92
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-content\plugins\eyewear-prescription-form\public\partials\eyewear_prescription_form-public-multi-form-cat.php(92): range('0', '0', 0)
+#1 C:\xampp\htdocs\lowrance\wp-content\plugins\eyewear-prescription-form\public\partials\eyewear_prescription_form-public-multi-form-cat.php(598): generateDivForEPFForm(0)
+#2 C:\xampp\htdocs\lowrance\wp-content\plugins\eyewear-prescription-form\public\class-eyewear_prescription_form-public.php(205): include_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(308): epc_specfit_show_model()
+#4 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(3069): do_action('wp_footer')
+#7 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\footer.php(70): wp_footer()
+#8 C:\xampp\htdocs\lowrance\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\lowrance\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#10 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#11 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\woocommerce\single-product.php(67): get_footer('shop')
+#12 C:\xampp\htdocs\lowrance\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\lowrance\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\lowrance\index.php(17): require('C:\\xampp\\htdocs...')
+#15 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-content\plugins\eyewear-prescription-form\public\partials\eyewear_prescription_form-public-multi-form-cat.php on line 92
+
+2023-09-04T21:41:25+00:00 CRITICAL syntax error, unexpected floating-point number "6e76", expecting ")" in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php on line 667
+
+2023-09-04T22:06:49+00:00 CRITICAL Uncaught Error: Call to undefined function get_prescription_data() in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php:739
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(310): display_prescription_data('')
+#1 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\lowrance\wp-content\plugins\woocommerce\templates\content-single-product.php(60): do_action('woocommerce_sin...')
+#4 C:\xampp\htdocs\lowrance\wp-includes\template.php(787): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\lowrance\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#6 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\woocommerce\single-product.php(42): wc_get_template_part('content', 'single-product')
+#7 C:\xampp\htdocs\lowrance\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\lowrance\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\lowrance\index.php(17): require('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php on line 739
+

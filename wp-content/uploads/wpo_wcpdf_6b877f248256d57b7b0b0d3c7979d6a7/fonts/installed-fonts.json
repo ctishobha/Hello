@@ -1,0 +1,26 @@
+{
+    "open sans": {
+        "normal": "D:\/Local Sites\/low-rance\/app\/public\/wp-content\/uploads\/wpo_wcpdf_6b877f248256d57b7b0b0d3c7979d6a7\/fonts\/OpenSans-Normal",
+        "bold": "D:\/Local Sites\/low-rance\/app\/public\/wp-content\/uploads\/wpo_wcpdf_6b877f248256d57b7b0b0d3c7979d6a7\/fonts\/OpenSans-Bold",
+        "italic": "D:\/Local Sites\/low-rance\/app\/public\/wp-content\/uploads\/wpo_wcpdf_6b877f248256d57b7b0b0d3c7979d6a7\/fonts\/OpenSans-Italic",
+        "bold_italic": "D:\/Local Sites\/low-rance\/app\/public\/wp-content\/uploads\/wpo_wcpdf_6b877f248256d57b7b0b0d3c7979d6a7\/fonts\/OpenSans-BoldItalic"
+    },
+    "segoe": {
+        "normal": "D:\/Local Sites\/low-rance\/app\/public\/wp-content\/uploads\/wpo_wcpdf_6b877f248256d57b7b0b0d3c7979d6a7\/fonts\/Segoe-Normal",
+        "bold": "D:\/Local Sites\/low-rance\/app\/public\/wp-content\/uploads\/wpo_wcpdf_6b877f248256d57b7b0b0d3c7979d6a7\/fonts\/Segoe-Bold",
+        "italic": "D:\/Local Sites\/low-rance\/app\/public\/wp-content\/uploads\/wpo_wcpdf_6b877f248256d57b7b0b0d3c7979d6a7\/fonts\/Segoe-Italic",
+        "bold_italic": "D:\/Local Sites\/low-rance\/app\/public\/wp-content\/uploads\/wpo_wcpdf_6b877f248256d57b7b0b0d3c7979d6a7\/fonts\/Segoe-BoldItalic"
+    },
+    "roboto slab": {
+        "normal": "D:\/Local Sites\/low-rance\/app\/public\/wp-content\/uploads\/wpo_wcpdf_6b877f248256d57b7b0b0d3c7979d6a7\/fonts\/RobotoSlab-Normal",
+        "bold": "D:\/Local Sites\/low-rance\/app\/public\/wp-content\/uploads\/wpo_wcpdf_6b877f248256d57b7b0b0d3c7979d6a7\/fonts\/RobotoSlab-Bold",
+        "italic": "D:\/Local Sites\/low-rance\/app\/public\/wp-content\/uploads\/wpo_wcpdf_6b877f248256d57b7b0b0d3c7979d6a7\/fonts\/RobotoSlab-Italic",
+        "bold_italic": "D:\/Local Sites\/low-rance\/app\/public\/wp-content\/uploads\/wpo_wcpdf_6b877f248256d57b7b0b0d3c7979d6a7\/fonts\/RobotoSlab-BoldItalic"
+    },
+    "currencies": {
+        "normal": "D:\/Local Sites\/low-rance\/app\/public\/wp-content\/uploads\/wpo_wcpdf_6b877f248256d57b7b0b0d3c7979d6a7\/fonts\/currencies",
+        "bold": "D:\/Local Sites\/low-rance\/app\/public\/wp-content\/uploads\/wpo_wcpdf_6b877f248256d57b7b0b0d3c7979d6a7\/fonts\/currencies",
+        "italic": "D:\/Local Sites\/low-rance\/app\/public\/wp-content\/uploads\/wpo_wcpdf_6b877f248256d57b7b0b0d3c7979d6a7\/fonts\/currencies",
+        "bold_italic": "D:\/Local Sites\/low-rance\/app\/public\/wp-content\/uploads\/wpo_wcpdf_6b877f248256d57b7b0b0d3c7979d6a7\/fonts\/currencies"
+    }
+}

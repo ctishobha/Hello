@@ -1,0 +1,816 @@
+2023-08-11T17:06:11+00:00 CRITICAL Uncaught Error: Failed opening required 'http://localhost/lowrance/wp-content/themes/twentytwenty/custom-header.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php:8
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-settings.php(600): include()
+#1 C:\xampp\htdocs\lowrance\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lowrance\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\lowrance\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\lowrance\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php on line 8
+
+2023-08-11T17:06:24+00:00 CRITICAL Uncaught Error: Failed opening required 'http://localhost/lowrance/wp-content/themes/twentytwenty/inc/custom-header.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php:8
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-settings.php(600): include()
+#1 C:\xampp\htdocs\lowrance\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lowrance\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\lowrance\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\lowrance\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php on line 8
+
+2023-08-11T17:06:56+00:00 CRITICAL Uncaught Error: Failed opening required 'http://localhost/lowrance/wp-content/themes/twentytwenty/header.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php:8
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-settings.php(600): include()
+#1 C:\xampp\htdocs\lowrance\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lowrance\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\lowrance\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\lowrance\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php on line 8
+
+2023-08-11T17:07:44+00:00 CRITICAL Uncaught Error: Call to a member function get_scripts() on null in C:\xampp\htdocs\lowrance\wp-content\plugins\woocommerce-multilingual\inc\currencies\currency-switcher\class-wcml-currency-switcher-templates.php:413
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-content\plugins\woocommerce-multilingual\inc\currencies\currency-switcher\class-wcml-currency-switcher-templates.php(366): WCML_Currency_Switcher_Templates->enqueue_template_assets('wcml-dropdown', NULL)
+#1 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(310): WCML_Currency_Switcher_Templates->enqueue_template_resources(Array)
+#2 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\lowrance\wp-includes\script-loader.php(2225): do_action('wp_enqueue_scri...')
+#5 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(310): wp_enqueue_scripts('')
+#6 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(3053): do_action('wp_head')
+#9 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\header.php(23): wp_head()
+#10 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php(8): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\lowrance\wp-settings.php(600): include('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\lowrance\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\lowrance\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\lowrance\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\lowrance\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-content\plugins\woocommerce-multilingual\inc\currencies\currency-switcher\class-wcml-currency-switcher-templates.php on line 413
+
+2023-08-11T17:07:56+00:00 CRITICAL Uncaught Error: Call to a member function get_scripts() on null in C:\xampp\htdocs\lowrance\wp-content\plugins\woocommerce-multilingual\inc\currencies\currency-switcher\class-wcml-currency-switcher-templates.php:413
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-content\plugins\woocommerce-multilingual\inc\currencies\currency-switcher\class-wcml-currency-switcher-templates.php(366): WCML_Currency_Switcher_Templates->enqueue_template_assets('wcml-dropdown', NULL)
+#1 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(310): WCML_Currency_Switcher_Templates->enqueue_template_resources(Array)
+#2 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\lowrance\wp-includes\script-loader.php(2225): do_action('wp_enqueue_scri...')
+#5 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(310): wp_enqueue_scripts('')
+#6 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(3053): do_action('wp_head')
+#9 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\header.php(23): wp_head()
+#10 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php(8): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\lowrance\wp-settings.php(600): include('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\lowrance\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\lowrance\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\lowrance\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\lowrance\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-content\plugins\woocommerce-multilingual\inc\currencies\currency-switcher\class-wcml-currency-switcher-templates.php on line 413
+
+2023-08-11T17:08:00+00:00 CRITICAL Uncaught Error: Call to a member function get_scripts() on null in C:\xampp\htdocs\lowrance\wp-content\plugins\woocommerce-multilingual\inc\currencies\currency-switcher\class-wcml-currency-switcher-templates.php:413
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-content\plugins\woocommerce-multilingual\inc\currencies\currency-switcher\class-wcml-currency-switcher-templates.php(366): WCML_Currency_Switcher_Templates->enqueue_template_assets('wcml-dropdown', NULL)
+#1 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(310): WCML_Currency_Switcher_Templates->enqueue_template_resources(Array)
+#2 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\lowrance\wp-includes\script-loader.php(2225): do_action('wp_enqueue_scri...')
+#5 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(310): wp_enqueue_scripts('')
+#6 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(3053): do_action('wp_head')
+#9 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\header.php(23): wp_head()
+#10 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php(8): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\lowrance\wp-settings.php(600): include('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\lowrance\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\lowrance\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\lowrance\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\lowrance\wp-admin\plugins.php(10): require_once('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-content\plugins\woocommerce-multilingual\inc\currencies\currency-switcher\class-wcml-currency-switcher-templates.php on line 413
+
+2023-08-11T17:18:59+00:00 CRITICAL Uncaught Error: Call to a member function get_scripts() on null in C:\xampp\htdocs\lowrance\wp-content\plugins\woocommerce-multilingual\inc\currencies\currency-switcher\class-wcml-currency-switcher-templates.php:413
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-content\plugins\woocommerce-multilingual\inc\currencies\currency-switcher\class-wcml-currency-switcher-templates.php(366): WCML_Currency_Switcher_Templates->enqueue_template_assets('wcml-dropdown', NULL)
+#1 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(310): WCML_Currency_Switcher_Templates->enqueue_template_resources(Array)
+#2 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\lowrance\wp-includes\script-loader.php(2225): do_action('wp_enqueue_scri...')
+#5 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(310): wp_enqueue_scripts('')
+#6 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(3053): do_action('wp_head')
+#9 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\header.php(23): wp_head()
+#10 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php(8): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\lowrance\wp-settings.php(600): include('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\lowrance\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\lowrance\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\lowrance\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\lowrance\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-content\plugins\woocommerce-multilingual\inc\currencies\currency-switcher\class-wcml-currency-switcher-templates.php on line 413
+
+2023-08-11T17:19:14+00:00 CRITICAL Uncaught Error: Failed opening required 'C:\xampp\htdocs\lowrance/wp-content/themes/twentytwenty-child/inc/custom-header.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php:8
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-settings.php(600): include()
+#1 C:\xampp\htdocs\lowrance\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lowrance\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\lowrance\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\lowrance\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php on line 8
+
+2023-08-11T17:19:25+00:00 CRITICAL Uncaught Error: Failed opening required 'C:\xampp\htdocs\lowrance/wp-content/themes/twentytwenty-child/inc/header.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php:8
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-settings.php(600): include()
+#1 C:\xampp\htdocs\lowrance\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lowrance\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\lowrance\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\lowrance\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php on line 8
+
+2023-08-11T17:19:32+00:00 CRITICAL Uncaught Error: Call to a member function get_scripts() on null in C:\xampp\htdocs\lowrance\wp-content\plugins\woocommerce-multilingual\inc\currencies\currency-switcher\class-wcml-currency-switcher-templates.php:413
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-content\plugins\woocommerce-multilingual\inc\currencies\currency-switcher\class-wcml-currency-switcher-templates.php(366): WCML_Currency_Switcher_Templates->enqueue_template_assets('wcml-dropdown', NULL)
+#1 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(310): WCML_Currency_Switcher_Templates->enqueue_template_resources(Array)
+#2 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\lowrance\wp-includes\script-loader.php(2225): do_action('wp_enqueue_scri...')
+#5 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(310): wp_enqueue_scripts('')
+#6 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(3053): do_action('wp_head')
+#9 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\header.php(23): wp_head()
+#10 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php(8): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\lowrance\wp-settings.php(600): include('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\lowrance\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\lowrance\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\lowrance\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\lowrance\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-content\plugins\woocommerce-multilingual\inc\currencies\currency-switcher\class-wcml-currency-switcher-templates.php on line 413
+
+2023-08-11T17:20:05+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wc_generator_tag" not found or invalid function name in C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(205): WP_Hook->apply_filters('<meta name="gen...', Array)
+#1 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(5053): apply_filters('get_the_generat...', '<meta name="gen...', 'xhtml')
+#2 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(4965): get_the_generator('xhtml')
+#3 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(4942): the_generator('xhtml')
+#4 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(310): wp_generator('')
+#5 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(3053): do_action('wp_head')
+#8 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\header.php(23): wp_head()
+#9 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php(8): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\lowrance\wp-settings.php(600): include('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\lowrance\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\lowrance\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\lowrance\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\lowrance\index.php(17): require('C:\\xampp\\htdocs...')
+#15 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php on line 310
+
+2023-08-11T17:23:10+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wc_generator_tag" not found or invalid function name in C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(205): WP_Hook->apply_filters('<meta name="gen...', Array)
+#1 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(5053): apply_filters('get_the_generat...', '<meta name="gen...', 'xhtml')
+#2 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(4965): get_the_generator('xhtml')
+#3 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(4942): the_generator('xhtml')
+#4 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(310): wp_generator('')
+#5 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(3053): do_action('wp_head')
+#8 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\header.php(23): wp_head()
+#9 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php(8): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\lowrance\wp-settings.php(600): include('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\lowrance\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\lowrance\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\lowrance\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\lowrance\index.php(17): require('C:\\xampp\\htdocs...')
+#15 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php on line 310
+
+2023-08-11T17:24:54+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wc_generator_tag" not found or invalid function name in C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(205): WP_Hook->apply_filters('<meta name="gen...', Array)
+#1 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(5053): apply_filters('get_the_generat...', '<meta name="gen...', 'xhtml')
+#2 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(4965): get_the_generator('xhtml')
+#3 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(4942): the_generator('xhtml')
+#4 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(310): wp_generator('')
+#5 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(3053): do_action('wp_head')
+#8 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\header.php(23): wp_head()
+#9 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php(8): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\lowrance\wp-settings.php(600): include('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\lowrance\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\lowrance\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\lowrance\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\lowrance\index.php(17): require('C:\\xampp\\htdocs...')
+#15 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php on line 310
+
+2023-08-11T17:24:56+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wc_generator_tag" not found or invalid function name in C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(205): WP_Hook->apply_filters('<meta name="gen...', Array)
+#1 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(5053): apply_filters('get_the_generat...', '<meta name="gen...', 'xhtml')
+#2 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(4965): get_the_generator('xhtml')
+#3 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(4942): the_generator('xhtml')
+#4 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(310): wp_generator('')
+#5 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(3053): do_action('wp_head')
+#8 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\header.php(23): wp_head()
+#9 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php(8): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\lowrance\wp-settings.php(600): include('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\lowrance\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\lowrance\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\lowrance\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php on line 310
+
+2023-08-11T17:25:22+00:00 CRITICAL Uncaught Error: Failed opening required 'http://localhost/lowrance/wp-content/themes/twentytwenty/header.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php:8
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-settings.php(600): include()
+#1 C:\xampp\htdocs\lowrance\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lowrance\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\lowrance\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\lowrance\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php on line 8
+
+2023-08-11T17:26:57+00:00 CRITICAL Uncaught Error: Failed opening required 'http://localhost/lowrance/wp-content/themes/twentytwenty/header.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php:8
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-settings.php(600): include()
+#1 C:\xampp\htdocs\lowrance\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lowrance\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\lowrance\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php on line 8
+
+2023-08-11T17:28:58+00:00 CRITICAL Uncaught Error: Failed opening required 'http://localhost/lowrance/wp-content/themes/twentytwenty/header.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php:8
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-settings.php(600): include()
+#1 C:\xampp\htdocs\lowrance\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lowrance\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\lowrance\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php on line 8
+
+2023-08-11T17:30:59+00:00 CRITICAL Uncaught Error: Failed opening required 'http://localhost/lowrance/wp-content/themes/twentytwenty/header.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php:8
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-settings.php(600): include()
+#1 C:\xampp\htdocs\lowrance\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lowrance\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\lowrance\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php on line 8
+
+2023-08-11T17:38:10+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wc_generator_tag" not found or invalid function name in C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(205): WP_Hook->apply_filters('<meta name="gen...', Array)
+#1 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(5053): apply_filters('get_the_generat...', '<meta name="gen...', 'xhtml')
+#2 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(4965): get_the_generator('xhtml')
+#3 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(4942): the_generator('xhtml')
+#4 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(310): wp_generator('')
+#5 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(3053): do_action('wp_head')
+#8 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\header.php(23): wp_head()
+#9 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php(8): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\lowrance\wp-settings.php(600): include('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\lowrance\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\lowrance\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\lowrance\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\lowrance\index.php(17): require('C:\\xampp\\htdocs...')
+#15 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php on line 310
+
+2023-08-11T17:41:04+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wc_generator_tag" not found or invalid function name in C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(205): WP_Hook->apply_filters('<meta name="gen...', Array)
+#1 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(5053): apply_filters('get_the_generat...', '<meta name="gen...', 'xhtml')
+#2 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(4965): get_the_generator('xhtml')
+#3 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(4942): the_generator('xhtml')
+#4 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(310): wp_generator('')
+#5 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(3053): do_action('wp_head')
+#8 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\custom-header.php(23): wp_head()
+#9 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php(8): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\lowrance\wp-settings.php(600): include('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\lowrance\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\lowrance\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\lowrance\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php on line 310
+
+2023-08-11T17:43:05+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wc_generator_tag" not found or invalid function name in C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(205): WP_Hook->apply_filters('<meta name="gen...', Array)
+#1 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(5053): apply_filters('get_the_generat...', '<meta name="gen...', 'xhtml')
+#2 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(4965): get_the_generator('xhtml')
+#3 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(4942): the_generator('xhtml')
+#4 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(310): wp_generator('')
+#5 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(3053): do_action('wp_head')
+#8 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\custom-header.php(23): wp_head()
+#9 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php(8): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\lowrance\wp-settings.php(600): include('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\lowrance\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\lowrance\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\lowrance\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php on line 310
+
+2023-08-11T17:45:06+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wc_generator_tag" not found or invalid function name in C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(205): WP_Hook->apply_filters('<meta name="gen...', Array)
+#1 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(5053): apply_filters('get_the_generat...', '<meta name="gen...', 'xhtml')
+#2 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(4965): get_the_generator('xhtml')
+#3 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(4942): the_generator('xhtml')
+#4 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(310): wp_generator('')
+#5 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(3053): do_action('wp_head')
+#8 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\custom-header.php(23): wp_head()
+#9 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php(8): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\lowrance\wp-settings.php(600): include('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\lowrance\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\lowrance\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\lowrance\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php on line 310
+
+2023-08-11T17:47:07+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wc_generator_tag" not found or invalid function name in C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(205): WP_Hook->apply_filters('<meta name="gen...', Array)
+#1 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(5053): apply_filters('get_the_generat...', '<meta name="gen...', 'xhtml')
+#2 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(4965): get_the_generator('xhtml')
+#3 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(4942): the_generator('xhtml')
+#4 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(310): wp_generator('')
+#5 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(3053): do_action('wp_head')
+#8 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\custom-header.php(23): wp_head()
+#9 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php(8): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\lowrance\wp-settings.php(600): include('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\lowrance\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\lowrance\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\lowrance\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php on line 310
+
+2023-08-11T17:49:08+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wc_generator_tag" not found or invalid function name in C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(205): WP_Hook->apply_filters('<meta name="gen...', Array)
+#1 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(5053): apply_filters('get_the_generat...', '<meta name="gen...', 'xhtml')
+#2 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(4965): get_the_generator('xhtml')
+#3 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(4942): the_generator('xhtml')
+#4 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(310): wp_generator('')
+#5 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(3053): do_action('wp_head')
+#8 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\custom-header.php(23): wp_head()
+#9 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php(8): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\lowrance\wp-settings.php(600): include('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\lowrance\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\lowrance\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\lowrance\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php on line 310
+
+2023-08-11T17:51:09+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wc_generator_tag" not found or invalid function name in C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(205): WP_Hook->apply_filters('<meta name="gen...', Array)
+#1 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(5053): apply_filters('get_the_generat...', '<meta name="gen...', 'xhtml')
+#2 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(4965): get_the_generator('xhtml')
+#3 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(4942): the_generator('xhtml')
+#4 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(310): wp_generator('')
+#5 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(3053): do_action('wp_head')
+#8 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\custom-header.php(23): wp_head()
+#9 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php(8): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\lowrance\wp-settings.php(600): include('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\lowrance\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\lowrance\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\lowrance\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php on line 310
+
+2023-08-11T17:53:10+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wc_generator_tag" not found or invalid function name in C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(205): WP_Hook->apply_filters('<meta name="gen...', Array)
+#1 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(5053): apply_filters('get_the_generat...', '<meta name="gen...', 'xhtml')
+#2 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(4965): get_the_generator('xhtml')
+#3 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(4942): the_generator('xhtml')
+#4 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(310): wp_generator('')
+#5 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(3053): do_action('wp_head')
+#8 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\custom-header.php(23): wp_head()
+#9 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php(8): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\lowrance\wp-settings.php(600): include('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\lowrance\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\lowrance\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\lowrance\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php on line 310
+
+2023-08-11T17:55:11+00:00 CRITICAL Uncaught Error: Failed opening required 'http://localhost/lowrance/wp-content/themes/twentytwenty/custom-header.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php:8
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-settings.php(600): include()
+#1 C:\xampp\htdocs\lowrance\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lowrance\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\lowrance\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php on line 8
+
+2023-08-11T17:55:54+00:00 CRITICAL Uncaught Error: Failed opening required 'http://localhost/lowrance/wp-content/themes/twentytwenty/custom-header.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php:8
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-settings.php(600): include()
+#1 C:\xampp\htdocs\lowrance\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lowrance\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\lowrance\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\lowrance\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php on line 8
+
+2023-08-11T17:56:15+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wc_generator_tag" not found or invalid function name in C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(205): WP_Hook->apply_filters('<meta name="gen...', Array)
+#1 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(5053): apply_filters('get_the_generat...', '<meta name="gen...', 'xhtml')
+#2 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(4965): get_the_generator('xhtml')
+#3 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(4942): the_generator('xhtml')
+#4 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(310): wp_generator('')
+#5 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(3053): do_action('wp_head')
+#8 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\custom-header.php(23): wp_head()
+#9 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php(8): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\lowrance\wp-settings.php(600): include('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\lowrance\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\lowrance\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\lowrance\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\lowrance\index.php(17): require('C:\\xampp\\htdocs...')
+#15 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php on line 310
+
+2023-08-11T17:57:12+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wc_generator_tag" not found or invalid function name in C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(205): WP_Hook->apply_filters('<meta name="gen...', Array)
+#1 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(5053): apply_filters('get_the_generat...', '<meta name="gen...', 'xhtml')
+#2 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(4965): get_the_generator('xhtml')
+#3 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(4942): the_generator('xhtml')
+#4 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(310): wp_generator('')
+#5 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(3053): do_action('wp_head')
+#8 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\custom-header.php(23): wp_head()
+#9 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php(8): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\lowrance\wp-settings.php(600): include('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\lowrance\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\lowrance\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\lowrance\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php on line 310
+
+2023-08-11T17:58:01+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wc_generator_tag" not found or invalid function name in C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(205): WP_Hook->apply_filters('<meta name="gen...', Array)
+#1 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(5053): apply_filters('get_the_generat...', '<meta name="gen...', 'xhtml')
+#2 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(4965): get_the_generator('xhtml')
+#3 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(4942): the_generator('xhtml')
+#4 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(310): wp_generator('')
+#5 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(3053): do_action('wp_head')
+#8 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\custom-header.php(23): wp_head()
+#9 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php(8): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\lowrance\wp-settings.php(600): include('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\lowrance\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\lowrance\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\lowrance\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\lowrance\index.php(17): require('C:\\xampp\\htdocs...')
+#15 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php on line 310
+
+2023-08-11T17:59:13+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wc_generator_tag" not found or invalid function name in C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(205): WP_Hook->apply_filters('<meta name="gen...', Array)
+#1 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(5053): apply_filters('get_the_generat...', '<meta name="gen...', 'xhtml')
+#2 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(4965): get_the_generator('xhtml')
+#3 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(4942): the_generator('xhtml')
+#4 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(310): wp_generator('')
+#5 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(3053): do_action('wp_head')
+#8 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\custom-header.php(23): wp_head()
+#9 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php(8): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\lowrance\wp-settings.php(600): include('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\lowrance\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\lowrance\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\lowrance\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php on line 310
+
+2023-08-11T18:02:18+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wc_generator_tag" not found or invalid function name in C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(205): WP_Hook->apply_filters('<meta name="gen...', Array)
+#1 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(5053): apply_filters('get_the_generat...', '<meta name="gen...', 'xhtml')
+#2 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(4965): get_the_generator('xhtml')
+#3 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(4942): the_generator('xhtml')
+#4 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(310): wp_generator('')
+#5 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(3053): do_action('wp_head')
+#8 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\custom-header.php(23): wp_head()
+#9 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php(8): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\lowrance\wp-settings.php(600): include('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\lowrance\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\lowrance\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\lowrance\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\lowrance\index.php(17): require('C:\\xampp\\htdocs...')
+#15 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php on line 310
+
+2023-08-11T18:03:15+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wc_generator_tag" not found or invalid function name in C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(205): WP_Hook->apply_filters('<meta name="gen...', Array)
+#1 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(5053): apply_filters('get_the_generat...', '<meta name="gen...', 'xhtml')
+#2 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(4965): get_the_generator('xhtml')
+#3 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(4942): the_generator('xhtml')
+#4 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(310): wp_generator('')
+#5 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(3053): do_action('wp_head')
+#8 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\custom-header.php(23): wp_head()
+#9 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php(8): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\lowrance\wp-settings.php(600): include('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\lowrance\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\lowrance\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\lowrance\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php on line 310
+
+2023-08-11T18:05:16+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wc_generator_tag" not found or invalid function name in C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(205): WP_Hook->apply_filters('<meta name="gen...', Array)
+#1 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(5053): apply_filters('get_the_generat...', '<meta name="gen...', 'xhtml')
+#2 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(4965): get_the_generator('xhtml')
+#3 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(4942): the_generator('xhtml')
+#4 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(310): wp_generator('')
+#5 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(3053): do_action('wp_head')
+#8 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\custom-header.php(23): wp_head()
+#9 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php(8): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\lowrance\wp-settings.php(600): include('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\lowrance\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\lowrance\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\lowrance\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php on line 310
+
+2023-08-11T18:06:57+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wc_generator_tag" not found or invalid function name in C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(205): WP_Hook->apply_filters('<meta name="gen...', Array)
+#1 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(5053): apply_filters('get_the_generat...', '<meta name="gen...', 'xhtml')
+#2 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(4965): get_the_generator('xhtml')
+#3 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(4942): the_generator('xhtml')
+#4 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(310): wp_generator('')
+#5 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(3053): do_action('wp_head')
+#8 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\custom-header.php(23): wp_head()
+#9 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php(8): include_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\lowrance\wp-settings.php(600): include('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\lowrance\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\lowrance\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\lowrance\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\lowrance\index.php(17): require('C:\\xampp\\htdocs...')
+#15 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php on line 310
+
+2023-08-11T18:06:59+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wc_generator_tag" not found or invalid function name in C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(205): WP_Hook->apply_filters('<meta name="gen...', Array)
+#1 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(5053): apply_filters('get_the_generat...', '<meta name="gen...', 'xhtml')
+#2 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(4965): get_the_generator('xhtml')
+#3 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(4942): the_generator('xhtml')
+#4 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(310): wp_generator('')
+#5 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(3053): do_action('wp_head')
+#8 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\custom-header.php(23): wp_head()
+#9 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php(8): include_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\lowrance\wp-settings.php(600): include('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\lowrance\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\lowrance\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\lowrance\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\lowrance\index.php(17): require('C:\\xampp\\htdocs...')
+#15 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php on line 310
+
+2023-08-11T18:07:17+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wc_generator_tag" not found or invalid function name in C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(205): WP_Hook->apply_filters('<meta name="gen...', Array)
+#1 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(5053): apply_filters('get_the_generat...', '<meta name="gen...', 'xhtml')
+#2 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(4965): get_the_generator('xhtml')
+#3 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(4942): the_generator('xhtml')
+#4 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(310): wp_generator('')
+#5 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(3053): do_action('wp_head')
+#8 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\custom-header.php(23): wp_head()
+#9 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php(8): include_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\lowrance\wp-settings.php(600): include('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\lowrance\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\lowrance\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\lowrance\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php on line 310
+
+2023-08-11T18:07:23+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wc_generator_tag" not found or invalid function name in C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(205): WP_Hook->apply_filters('<meta name="gen...', Array)
+#1 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(5053): apply_filters('get_the_generat...', '<meta name="gen...', 'xhtml')
+#2 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(4965): get_the_generator('xhtml')
+#3 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(4942): the_generator('xhtml')
+#4 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(310): wp_generator('')
+#5 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(3053): do_action('wp_head')
+#8 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\custom-header.php(23): wp_head()
+#9 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php(8): require('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\lowrance\wp-settings.php(600): include('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\lowrance\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\lowrance\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\lowrance\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\lowrance\index.php(17): require('C:\\xampp\\htdocs...')
+#15 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php on line 310
+
+2023-08-11T18:07:28+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wc_generator_tag" not found or invalid function name in C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(205): WP_Hook->apply_filters('<meta name="gen...', Array)
+#1 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(5053): apply_filters('get_the_generat...', '<meta name="gen...', 'xhtml')
+#2 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(4965): get_the_generator('xhtml')
+#3 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(4942): the_generator('xhtml')
+#4 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(310): wp_generator('')
+#5 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(3053): do_action('wp_head')
+#8 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\custom-header.php(23): wp_head()
+#9 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php(8): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\lowrance\wp-settings.php(600): include('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\lowrance\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\lowrance\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\lowrance\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\lowrance\index.php(17): require('C:\\xampp\\htdocs...')
+#15 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php on line 310
+
+2023-08-11T18:09:18+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wc_generator_tag" not found or invalid function name in C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(205): WP_Hook->apply_filters('<meta name="gen...', Array)
+#1 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(5053): apply_filters('get_the_generat...', '<meta name="gen...', 'xhtml')
+#2 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(4965): get_the_generator('xhtml')
+#3 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(4942): the_generator('xhtml')
+#4 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(310): wp_generator('')
+#5 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(3053): do_action('wp_head')
+#8 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\custom-header.php(23): wp_head()
+#9 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php(8): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\lowrance\wp-settings.php(600): include('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\lowrance\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\lowrance\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\lowrance\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php on line 310
+
+2023-08-11T18:10:01+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wc_generator_tag" not found or invalid function name in C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(205): WP_Hook->apply_filters('<meta name="gen...', Array)
+#1 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(5053): apply_filters('get_the_generat...', '<meta name="gen...', 'xhtml')
+#2 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(4965): get_the_generator('xhtml')
+#3 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(4942): the_generator('xhtml')
+#4 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(310): wp_generator('')
+#5 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(3053): do_action('wp_head')
+#8 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\custom-header.php(23): wp_head()
+#9 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php(9): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\lowrance\wp-settings.php(600): include('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\lowrance\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\lowrance\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\lowrance\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\lowrance\index.php(17): require('C:\\xampp\\htdocs...')
+#15 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php on line 310
+
+2023-08-11T18:10:03+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wc_generator_tag" not found or invalid function name in C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(205): WP_Hook->apply_filters('<meta name="gen...', Array)
+#1 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(5053): apply_filters('get_the_generat...', '<meta name="gen...', 'xhtml')
+#2 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(4965): get_the_generator('xhtml')
+#3 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(4942): the_generator('xhtml')
+#4 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(310): wp_generator('')
+#5 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(3053): do_action('wp_head')
+#8 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\custom-header.php(23): wp_head()
+#9 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php(9): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\lowrance\wp-settings.php(600): include('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\lowrance\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\lowrance\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\lowrance\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\lowrance\index.php(17): require('C:\\xampp\\htdocs...')
+#15 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php on line 310
+
+2023-08-11T18:10:03+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wc_generator_tag" not found or invalid function name in C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(205): WP_Hook->apply_filters('<meta name="gen...', Array)
+#1 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(5053): apply_filters('get_the_generat...', '<meta name="gen...', 'xhtml')
+#2 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(4965): get_the_generator('xhtml')
+#3 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(4942): the_generator('xhtml')
+#4 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(310): wp_generator('')
+#5 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(3053): do_action('wp_head')
+#8 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\custom-header.php(23): wp_head()
+#9 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php(9): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\lowrance\wp-settings.php(600): include('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\lowrance\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\lowrance\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\lowrance\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\lowrance\index.php(17): require('C:\\xampp\\htdocs...')
+#15 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php on line 310
+
+2023-08-11T18:10:11+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wc_generator_tag" not found or invalid function name in C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(205): WP_Hook->apply_filters('<meta name="gen...', Array)
+#1 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(5053): apply_filters('get_the_generat...', '<meta name="gen...', 'xhtml')
+#2 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(4965): get_the_generator('xhtml')
+#3 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(4942): the_generator('xhtml')
+#4 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(310): wp_generator('')
+#5 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(3053): do_action('wp_head')
+#8 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\custom-header.php(23): wp_head()
+#9 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php(3): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\lowrance\wp-settings.php(600): include('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\lowrance\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\lowrance\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\lowrance\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\lowrance\index.php(17): require('C:\\xampp\\htdocs...')
+#15 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php on line 310
+
+2023-08-11T18:10:54+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wc_generator_tag" not found or invalid function name in C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(205): WP_Hook->apply_filters('<meta name="gen...', Array)
+#1 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(5053): apply_filters('get_the_generat...', '<meta name="gen...', 'xhtml')
+#2 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(4965): get_the_generator('xhtml')
+#3 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(4942): the_generator('xhtml')
+#4 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(310): wp_generator('')
+#5 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(3053): do_action('wp_head')
+#8 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\custom-header.php(23): wp_head()
+#9 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php(3): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\lowrance\wp-settings.php(600): include('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\lowrance\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\lowrance\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\lowrance\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\lowrance\index.php(17): require('C:\\xampp\\htdocs...')
+#15 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php on line 310
+
+2023-08-11T18:11:19+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wc_generator_tag" not found or invalid function name in C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(205): WP_Hook->apply_filters('<meta name="gen...', Array)
+#1 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(5053): apply_filters('get_the_generat...', '<meta name="gen...', 'xhtml')
+#2 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(4965): get_the_generator('xhtml')
+#3 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(4942): the_generator('xhtml')
+#4 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(310): wp_generator('')
+#5 C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\lowrance\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\lowrance\wp-includes\general-template.php(3053): do_action('wp_head')
+#8 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\custom-header.php(23): wp_head()
+#9 C:\xampp\htdocs\lowrance\wp-content\themes\twentytwenty-child\functions.php(3): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\lowrance\wp-settings.php(600): include('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\lowrance\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\lowrance\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\lowrance\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+  thrown in C:\xampp\htdocs\lowrance\wp-includes\class-wp-hook.php on line 310
+
